@@ -5,7 +5,7 @@ predictor = NeuralBot()
 print("[DEBUG] Creating 2 sessions")
 session_bot_0 = UserSession()
 session_bot_1 = UserSession()
-bot_1_answer = "Ты попуск и ничего не можешь"
+bot_1_answer = "Привет"
 print(f"1> {bot_1_answer}")
 while True:
     # Send message to bot 0
