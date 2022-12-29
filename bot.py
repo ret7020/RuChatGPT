@@ -12,7 +12,7 @@ class NeuralBot:
         self.model.load_state_dict(checkpoint['model_state_dict'])
         self.model = self.model.to('cpu') # Perfectly works on cpu machine; My nvidia can't fit this model;
         self.model.eval()
-        self.ans_len = 2
+        self.ans_len = 3
         self.session_id = random.randint(10000, 10000000)
 
     def answer(self, next_who, history, input_user=None):
