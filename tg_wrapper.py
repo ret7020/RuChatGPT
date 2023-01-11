@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 from bot import NeuralBot, UserSession
 
-API_TOKEN = '5673821926:AAFo39djJEN6POEBV2KgUxzJvm2hjWkDEFw'
+API_TOKEN = ''
 
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
